@@ -1,3 +1,21 @@
+a:link,
+a:hover,
+a:active,
+a:visited{
+  text-decoration: none;
+}
+ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+/*红色提示信息颜色*/
+red {
+  color:#a94442;
+}
+
+
 .body_bg {
   background-color: #222D32;
 }
@@ -11,3 +29,5 @@
 .mt_150 {
   margin-top:150px;
 }
+
+/*乐淘侧边栏*/
