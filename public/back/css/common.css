@@ -31,3 +31,97 @@ red {
 }
 
 /*乐淘侧边栏*/
+.lt_aside {
+  width: 180px;
+  height:100%;
+  position:fixed;
+  left:0;
+  top:0;
+  background-color: #222D32;
+  z-index:999;
+}
+.lt_aside .brand {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #367FA9;
+}
+.lt_aside .brand a {
+  font-size:20px;
+  color:#fff;
+}
+.lt_aside .user {
+  padding-top:30px;
+  height:180px;
+}
+.lt_aside .user img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  margin:0 auto;
+}
+.lt_aside .user p{
+  color:#fff;
+  font-size:20px;
+  line-height: 30px;
+  text-align: center;
+  padding-top:10px;
+}
+.lt_aside .nav a {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color:#fff;
+  padding-left:40px;
+}
+.lt_aside .nav a.current {
+  background-color: #1D1F21;
+  border-left:3px solid #006699;
+}
+.lt_aside .nav i{
+  margin-right:5px;
+}
+.lt_aside .nav .child a {
+  padding-left:60px;
+}
+
+/*乐淘主体*/
+.lt_main {
+  width: 100%;
+  height: 1000px;
+  padding-left:180px;
+  padding-top:50px;
+  background-color:pink;
+}
+.lt_main .lt_topbar {
+  height:50px;
+  width: 100%;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:#3C8DBC;
+  padding-left:180px;
+}
+.lt_topbar .icon-menu,
+.lt_topbar .icon-logout {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color:#fff;
+  font-size:20px;
+}
+
+/*流式布局容器*/
+.container-fluid {
+  padding-left:15px;
+  padding-right:15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.breadcrumb {
+  margin-top:20px;
+}
+
