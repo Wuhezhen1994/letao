@@ -28,13 +28,13 @@ $(function(){
         validators:{
           //配置非空校验
           notEmpty:{
-            message:"密码不能为空"
+            message:"用户名不能为空"
           },
           //配置长度校验
           stringLength:{
-            min:6,
-            max:12,
-            message:"密码长度必须在6-12位"
+            min:2,
+            max:6,
+            message:"用户名长度必须在2-6位"
           }
         }
       }
