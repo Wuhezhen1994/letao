@@ -11,7 +11,7 @@ ul {
 }
 
 /*红色提示信息颜色*/
-red {
+.red {
   color:#a94442;
 }
 
@@ -39,6 +39,10 @@ red {
   top:0;
   background-color: #222D32;
   z-index:999;
+  transition:all 1s;
+}
+.lt_aside.hidemenu {
+  left:-180px;
 }
 .lt_aside .brand {
   height: 50px;
@@ -62,11 +66,12 @@ red {
   margin:0 auto;
 }
 .lt_aside .user p{
+  height:40px;
   color:#fff;
   font-size:20px;
-  line-height: 30px;
+  line-height: 40px;
   text-align: center;
-  padding-top:10px;
+  
 }
 .lt_aside .nav a {
   display: block;
@@ -93,7 +98,11 @@ red {
   height: 1000px;
   padding-left:180px;
   padding-top:50px;
-  background-color:pink;
+  /*background-color:pink;*/
+  transition:all 1s;
+}
+.lt_main.hidemenu {
+  padding-left:0px;
 }
 .lt_main .lt_topbar {
   height:50px;
@@ -103,6 +112,10 @@ red {
   left:0;
   background-color:#3C8DBC;
   padding-left:180px;
+  transition:all 1s;
+}
+.lt_topbar.hidemenu {
+  padding-left:0px;
 }
 .lt_topbar .icon-menu,
 .lt_topbar .icon-logout {
@@ -113,15 +126,16 @@ red {
   color:#fff;
   font-size:20px;
 }
-
-/*流式布局容器*/
-.container-fluid {
-  padding-left:15px;
-  padding-right:15px;
-  margin-left:auto;
-  margin-right:auto;
-}
 .breadcrumb {
   margin-top:20px;
 }
+
+.echarts_1,
+.echarts_2 {
+  width: 48%;
+  height:400px;
+  
+}
+
+
 
